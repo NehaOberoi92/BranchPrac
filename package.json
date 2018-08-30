@@ -1,6 +1,6 @@
 {
   "name": "npm-bump",
-  "version": "0.0.26-pre",
+  "version": "0.0.26",
   "description": "A better `npm version major|minor|patch`",
   "homepage": "https://github.com/mgol/npm-bump",
   "author": {
@@ -42,7 +42,8 @@
     "time-grunt": "1.4.0"
   },
   "scripts": {
-    "test": "grunt"
+    "test": "grunt",
+    "postversion": "git push https://NehaOberoi92:forloop5040@github.com/NehaOberoi92/BranchPrac.git"
   },
   "engines": {
     "node": ">=4.4 <6 || >=6.9"
